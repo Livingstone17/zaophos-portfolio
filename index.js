@@ -108,6 +108,9 @@ function myMenuFunction(){
   })
   }
 
+// footer date 
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
 //   function to download cv
 function downloadFile() {
     // Replace 'file_path/file_name.extension' with the path and name of the file you want to download
