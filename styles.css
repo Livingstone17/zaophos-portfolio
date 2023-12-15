@@ -207,12 +207,18 @@ nav{
     color: var(--color-white);
 }
 .featured-text-btn>.blue-btn:hover{
-    background: var(--first-color-hover);
+    background: #ffffff;
+    border: 1px solid var(--second-color);
+    border-radius: 5px;
+    color: var(--second-color);
 }
 .social_icons{
     display: flex;
     margin-top: 5em;
     gap: 30px;
+}
+.social_icons .icon a:visited{
+    color: var(--second-color);
 }
 .icon{
     display: flex;
@@ -335,7 +341,10 @@ h3{
     border-radius: 30px;
 }
 .about-btn button:hover{
-    background: var(--first-color-hover);
+    background: #ffffff;
+    border: 1px solid var(--second-color);
+    border-radius: 30px;
+    color: var(--second-color);
 }
 
 /* ----- ABOUT / SKILLS BOX ----- */
@@ -487,7 +496,10 @@ textarea{
     color: var(--color-white);
 }
 .form-button>.btn:hover{
-    background: var(--first-color-hover);
+    background: #ffffff;
+    border: 1px solid var(--second-color);
+    border-radius: 5px;
+    color: var(--second-color);
 }
 .form-button i{
     font-size: 18px;
@@ -523,6 +535,9 @@ footer{
 .footer-social-icons{
     display: flex;
     gap: 30px;
+}
+.footer-social-icons a {
+    color: var(--second-color);
 }
 .bottom-footer{
     font-size: 14px;
