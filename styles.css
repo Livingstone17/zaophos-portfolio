@@ -247,11 +247,16 @@ nav{
     width: 380px;
     height: 380px;
     animation: imgFloat 7s ease-in-out infinite;
+    border-radius: 130px 160px 180px 220px;
 }
 .image img{
     width: 380px;
     height: 380px;
     object-fit: contain;
+    border-radius: 130px 150px 180px 220px;
+    object-fit: cover;
+    
+    
 }
 @keyframes imgFloat {
     50%{
@@ -488,12 +493,16 @@ textarea{
     outline: none;
     resize: none;
 }
-.form-button>.btn{
+.form-button .btn{
     display: flex;
     align-items: center;
     justify-content: center;
     background: var(--second-color);
     color: var(--color-white);
+    gap: 5px;
+    text-decoration: none;
+    width: 120px;
+    cursor: pointer;
 }
 .form-button>.btn:hover{
     background: #ffffff;
@@ -553,6 +562,7 @@ footer{
     .image, .image img{
         width: 320px;
         height: 320px;
+        
     }
 }
 
