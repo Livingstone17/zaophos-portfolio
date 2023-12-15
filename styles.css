@@ -217,6 +217,9 @@ nav{
     margin-top: 5em;
     gap: 30px;
 }
+.social_icons .icon a{
+    color: var(--second-color);
+}
 .social_icons .icon a:visited{
     color: var(--second-color);
 }
@@ -546,6 +549,9 @@ footer{
     gap: 30px;
 }
 .footer-social-icons a {
+    color: var(--second-color);
+}
+.footer-social-icons a:visited {
     color: var(--second-color);
 }
 .bottom-footer{
